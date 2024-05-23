@@ -1,0 +1,25 @@
+api=  https://api.openweathermap.org/data/2.5/weather?q=karaikudi&appid=5c0172544e3c22ffd6a7928d766ad4fd&units=metric
+
+
+   
+        <section id="box" class="text-center sm-4">
+          <label for="input" class="text-white">Enter the city</label>
+          <input type="text" name="input" id="input" placeholder="Devakottai" />
+          <br />
+          <button class="btn btn-primary" id="get">Get Weather</button>
+          <br /><br />
+          
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title" id="card">devakottai</h5>
+              <i
+                class="fa fa-thermometer-empty"
+                id="tempicon"
+                aria-hidden="true"
+              ></i>
+              <p class="card-text" id="carda">20 °C</p>
+              <i class="fas fa-humidity"></i>
+              <p class="card-text" id="cardb">humidity</p>
+            </div>
+          </div>
+        </section>

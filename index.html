@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather Forecast</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcreazilla-store.fra1.digitaloceanspaces.com%2Fcliparts%2F63069%2Fweather-icon-clipart-md.png&f=1&nofb=1&ipt=2eb3a57d0771428b13ff3a908fca2ddfac128ce139c5af3c876e0ed4267dd1b1&ipo=images"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-primary text-white">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fw-bold" href="#"
+            >Weather forecast</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./about/index.html"
+                  >about</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1 class="text-center text-white">
+          Weather Forecast for all Countries and Cities
+        </h1>
+      </section>
+
+      <section class="align-items-center">
+        <div class="card text-center">
+          <div class="card-header">
+            <input type="text" class="" id="input" /><i
+              class="fa fa-search fa-2x ml-2"
+              id="get"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title fw-bold fs-1" id="card">devakottai</h5>
+            <br />
+            <br />
+            <p class="card-text fw-bold fs-2" id="carda">20 °C</p>
+            <div class="row">
+              <div class="col">
+                <label for=""
+                  ><i
+                    class="fa fa-thermometer-empty fa-2x"
+                    id="tempicon"
+                    aria-hidden="true"
+                  ></i
+                ></label>
+                <p class="card-text fs-3" id="cardb">20 °C</p>
+              </div>
+              <div class="col">
+                <label for=""
+                  ><i
+                    class="fa fa-thermometer-empty fa-2x"
+                    id="tempicon"
+                    aria-hidden="true"
+                  ></i
+                ></label>
+                <p class="card-text fs-3" id="cardc">20 °C</p>
+              </div>
+              <div class="col">
+                <label for=""
+                  ><i
+                    class="fa fa-thermometer-empty fa-2x"
+                    id="tempicon"
+                    aria-hidden="true"
+                  ></i
+                ></label>
+                <p class="card-text fs-3" id="cardd">20 °C</p>
+              </div>
+              <div class="col">
+                <label for=""
+                  ><i class="fa fa-tint fa-2x" aria-hidden="true"></i
+                ></label>
+                <p class="card-text fs-3" id="carde">60%</p>
+              </div>
+              <div class="col">
+                <label for=""><i class="fas fa-smog fa-2x"></i></label>
+                <p class="card-text fs-3" id="cardf">overcloud</p>
+              </div>
+              <div class="col">
+                <label for=""><i class="fas fa-wind fa-2x"></i></label>
+                <p class="card-text fs-3" id="cardg">2 KM/h</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer text-body-secondary">
+            <span class="fw-bold fs-3">Current weather</span>
+            <p id="demo" class="fw-bold fs-4"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <br /><br />
+    <footer class="text-white text-center">
+      <p>Weather Forecaste</p>
+      <p>GD CODER &#169;</p>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+
+    <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

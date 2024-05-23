@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background:  #212529 !important;
+}
+
+#box{
+    border: 2px solid white;
+    width: 600px;
+    height: 400px;
+    
+}
+
+#input{
+
+    border: 2px solid black;
+
+}
+#carda{
+    position: relative;
+    left: 20px;
+    bottom: 22px;
+}
+
+#tempicon{
+    position: relative;
+    right: 10px;
+
+}

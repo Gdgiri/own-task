@@ -4,30 +4,26 @@
   box-sizing: border-box;
 }
 
-body{
-    background:  #212529 !important;
+body {
+  background: #212529 !important;
 }
 
-#box{
-    border: 2px solid white;
-    width: 600px;
-    height: 400px;
-    
+#box {
+  border: 2px solid white;
+  width: 600px;
+  height: 300px;
 }
 
-#input{
-
-    border: 2px solid black;
-
+#input {
+  border: 2px solid black;
 }
-#carda{
-    position: relative;
-    left: 20px;
-    bottom: 22px;
+#carda {
+  position: relative;
+  left: 20px;
+  bottom: 22px;
 }
 
-#tempicon{
-    position: relative;
-    right: 10px;
-
+#tempicon {
+  position: relative;
+  right: 10px;
 }
